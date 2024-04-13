@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+  }
+  
+  .imagen img {
+    width: 300px;
+    height: 250%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #digimon-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .digimon-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: darksalmon;
+  }
+  
+  .digimon-item img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+  }
